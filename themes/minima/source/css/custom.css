@@ -170,14 +170,17 @@ img {
 }
 
 code:not(pre code) {
-  background-color: rgb(230, 230, 230);
+  /* background-color: rgb(230, 230, 230); */
+  background-color: #fff5f5;
+  color: #ff502c;
   border-radius: 5px;
   padding: 0px 2px;
   font-size: 85%;
 }
 
 body.darkmode code:not(pre code) {
-  background-color: rgb(65, 65, 65);
+  /* background-color: rgb(65, 65, 65); */
+  background-color: #fff5f5;
 }
 
 /* blockquote */

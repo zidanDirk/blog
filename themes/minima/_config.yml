@@ -18,7 +18,8 @@ max_post: 4
 
 # Colors use hex color without #
 # Theme color
-tcolor: 0FA0CE
+# tcolor: 0FA0CE
+tcolor: 00285E
 
 # Define path to user css
 #(could be also located outside of theme)
