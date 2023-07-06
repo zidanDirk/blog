@@ -1,20 +1,9 @@
-- 👨‍💻 前端开发工程师
-- 🎵 关注 **Severless** / **AI** / **工程化** / **软件架构**
-- ⛹ 喜欢运动 🏀 🏸️ 🏓️ 🎳
-- 💬 WeChatID：`superZidan41`
+大家好，我是 `zidan`， 一名来自广东汕头的 web 软件工程师。1991年出生，毕业于深圳大学计算机系，毕业后的五年我曾是一名北漂，在北京这座有温度的城市闯荡和生活，目前定居在广州
 
+专注于 web 开发领域，热衷探索前沿技术，以保持对行业最新动态的了解
 
+电影是我业余时间放松和享受时光的方式之一。除此之外还喜欢体育运动，特别是篮球、羽毛球和乒乓球，竞技体育不仅能够锻炼身体，还能在一定程度上培养竞争意识
 
-<img class="languages-img" align="left" alt="HTML5" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img class="languages-img" align="left" alt="CSS3" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img class="languages-img" align="left" alt="JavaScript" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img class="languages-img" align="left" alt="Typescript" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
-<img class="languages-img" align="left" alt="React" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-<img class="languages-img" align="left" alt="Vue" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" />
-<img class="languages-img" align="left" alt="Node.js" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-<img class="languages-img" align="left" alt="MongoDB" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />
-<img class="languages-img" align="left" alt="Git" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-<img class="languages-img" align="left" alt="GitHub" width="32px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
-<img class="languages-img" align="left" alt="Terminal" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+写博客是我为数不多能够坚持了很久的事情，我很享受写作本身这件事以及与读者交流的过程
 
-<br />
+最后，非常感谢您抽出时间阅读我的自我介绍
