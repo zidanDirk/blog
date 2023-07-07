@@ -337,3 +337,11 @@ body.darkmode {
   display: inline-block;
   margin-right: 10px;
 }
+
+.data-count {
+  margin-left: 10px;
+  color: #8a919f;
+}
+.data-count svg {
+  transform: translateY(2px);
+}
