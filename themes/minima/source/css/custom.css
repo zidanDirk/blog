@@ -345,3 +345,8 @@ body.darkmode {
 .data-count svg {
   transform: translateY(2px);
 }
+.WechatPay {
+  margin: 50px auto;
+  display: block;
+  width: 60%;
+}

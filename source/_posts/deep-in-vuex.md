@@ -82,7 +82,7 @@ import { forEachValue, isObject, isPromise, assert } from './util'
 ```
 一开始导入相关的方法，后面会解释这些方法的用处
 
-```
+```js
 let Vue // 定义了变量Vue，为的是引用外部的vue构造函数，这样vuex框架就可以不用导入vue这个库了
 ```
 
@@ -315,7 +315,7 @@ registerModule (path, rawModule) {
   }
 ```
 unregisterModule函数，上述registerModule函数的相反操作，具体在module的时候会介绍到，在此了解个大概，先不纠结细节
-```
+```js
 unregisterModule (path) {
     if (typeof path === 'string') path = [path]
 

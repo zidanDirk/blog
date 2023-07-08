@@ -20,6 +20,8 @@ http://zidan.store/2023/05/19/how-to-build-a-chatbot-with-openai-chatgpt-nodejs-
 https://zidan.store/2023/05/19/how-to-build-a-chatbot-with-openai-chatgpt-nodejs-and-react
 http://zidan.store/2022/11/03/fully-typed-web-apps
 https://zidan.store/2022/11/03/fully-typed-web-apps
+http://zidan.store/2017/07/17/deep-in-vuex
+https://zidan.store/2017/07/17/deep-in-vuex
 http://zidan.store/2023/01/01/concepts-behind-modern-frameworks
 https://zidan.store/2023/01/01/concepts-behind-modern-frameworks
 http://zidan.store/2023/03/15/building-a-json-to-typescript-converter-with-react-nodejs-and-chatgpt

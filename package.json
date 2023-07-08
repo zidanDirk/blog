@@ -7,7 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy && npm run commit2Baidu",
     "server": "hexo server",
-    "commit2Baidu": "node scripts/commitURL2Baidu.js"
+    "commit2Baidu": "node _scripts/commitURL2Baidu.js"
   },
   "hexo": {
     "version": "6.3.0"
