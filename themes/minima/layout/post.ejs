@@ -2,6 +2,11 @@
   <h1><b><%- page.title %></b></h1>
 
 
+  <!-- <%- toc(page.content, {
+    class: 'post-toc',
+    list_number: false
+}) %> -->
+
   <%- page.content%>
   <p>
     <%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %> — <%- full_date(page.date, 'll') %>
