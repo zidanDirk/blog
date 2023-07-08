@@ -5,8 +5,9 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "deploy": "hexo deploy && npm run commit2Baidu",
+    "server": "hexo server",
+    "commit2Baidu": "node scripts/commitURL2Baidu.js"
   },
   "hexo": {
     "version": "6.3.0"
@@ -26,6 +27,8 @@
     "hexo-theme-landscape": "^1.0.0"
   },
   "devDependencies": {
+    "glob": "^10.3.1",
+    "dotenv": "^16.3.1",
     "hexo-generator-sitemap": "^3.0.1"
   }
 }
