@@ -71,6 +71,10 @@ img {
   }
 }
 
+@media (max-width: 1000px) {
+
+}
+
 .center {
   text-align: center;
 }
@@ -331,22 +335,3 @@ body.darkmode {
 
 }
 
-
-.languages-img {
-  box-shadow: none;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.data-count {
-  margin-left: 10px;
-  color: #8a919f;
-}
-.data-count svg {
-  transform: translateY(2px);
-}
-.WechatPay {
-  margin: 50px auto;
-  display: block;
-  width: 60%;
-}

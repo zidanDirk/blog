@@ -1,0 +1,56 @@
+
+.languages-img {
+    box-shadow: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+.data-count {
+    margin-left: 10px;
+    color: #8a919f;
+}
+.data-count svg {
+    transform: translateY(2px);
+}
+.WechatPay {
+    margin: 50px auto;
+    display: block;
+    width: 60%;
+}
+
+
+.hide {
+    opacity: 0 !important;
+}
+.post-toc-container {
+    opacity: 1;
+    position: fixed;
+    top: 170px;
+    left: 0;
+    padding-left: 20px;
+    width: 320px;
+    transition: opacity .5s;
+}
+.about-img-container {
+    display: flex;
+    width: 100%;
+}
+.about-img-container .about-img {
+    display: block;
+    width: 40%;
+    margin-right: 10px;
+}
+.about-img-container .about-img :last-child {
+    margin-right: 0;
+}
+.about-img {
+    display: block;
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1300px) {
+    .post-toc-container {
+        display: none;
+    }
+}

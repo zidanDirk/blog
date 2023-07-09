@@ -1,11 +1,21 @@
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ 
   <h1><b><%- page.title %></b></h1>
 
-
-  <!-- <%- toc(page.content, {
-    class: 'post-toc',
-    list_number: false
-}) %> -->
+  <div class="post-toc-container hide">
+    <div class="post-toc-container-sticky">
+    <%- toc(page.content, {
+      class: 'post-toc',
+      list_number: false
+    }) %>
+  </div>
+  <script>
+    const postTocContainer = document.querySelector('.post-toc-container')
+    setTimeout(() => {
+      postTocContainer.classList.remove('hide')
+    }, 1000)
+  </script>
+</div>
 
   <%- page.content%>
   <p>
