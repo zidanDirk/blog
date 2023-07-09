@@ -5,13 +5,13 @@ tags:
 ---
 
 
-大家好，我是 `zidan`， 一名来自**广东汕头**的 web 软件工程师。1991 年出生，毕业于**深圳大学**计算机系。
+大家好，我是 `zidan`， 一名来自**广东汕头**的 web 软件工程师。1991 年出生，2014 年毕业于**深圳大学**计算机系。
 <div class="about-img-container"> 
     <img class="about-img"  src="/imgs/shantou.jpeg">
     <img class="about-img" src="/imgs/szu.jpeg">
 </div>
 
-毕业后的五年我曾是一名北漂，在**北京**这座有温度的城市工作和生活，目前定居在**广州**。
+毕业后北漂五年半，在**北京**这座有温度的城市工作和生活，目前定居在**广州**。
 <div class="about-img-container">
     <img class="about-img"  src="/imgs/beijin.jpeg">
     <img class="about-img" src="/imgs/guangzhou.jpeg">
