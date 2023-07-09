@@ -13,6 +13,7 @@ desc: " 💻  🎬  🐱  🏀  🍚"
 menu:
   Posts: /archives
   About: /About
+  RSS: /atom.xml
 
 #index/main page max show posts (in number)
 max_post: 8
