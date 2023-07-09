@@ -1,9 +1,10 @@
 const { exec } = require('child_process');
 const { writeUrlsToFile } = require('./generateURLTxt');
+const { domain } = require('./contanst').default
 require('dotenv').config()
 
 const { BAIDU_TOKEN } = process.env
-const url = `http://data.zz.baidu.com/urls?site=https://zidan.store&token=${BAIDU_TOKEN}`;
+const url = `http://data.zz.baidu.com/urls?site=https://${domain}&token=${BAIDU_TOKEN}`;
 const filePath = 'urls.txt';
 
 const commit = () => {

@@ -13,5 +13,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://www.zidan.store/sitemap.xml
-Sitemap: https://www.zidan.store/baidusitemap.xml
+Sitemap: https://www.zhangzidan.com/sitemap.xml
+Sitemap: https://www.zhangzidan.com/baidusitemap.xml

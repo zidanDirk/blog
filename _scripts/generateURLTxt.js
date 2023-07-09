@@ -1,19 +1,20 @@
 const { resolve, relative, basename } = require('path')
 const { readFileSync, writeFileSync } = require('fs')
-
 const { globSync } = require('glob')
+const { domain }  = require('./contanst').default
 
 const urlTextFile  = resolve('urls.txt')
 const postDir = resolve('.', 'source', '_posts')
 const mdSuffix = '.md'
 
+
 const defaultUrls = [
-    'https://zidan.store',
-    'http://zidan.store',
-    'https://zidan.store/about',
-    'http://zidan.store/about',
-    'https://zidan.store/archives',
-    'http://zidan.store/archives'
+    `https://${domain}`,
+    `http://${domain}`,
+    `https://${domain}/about`,
+    `http://${domain}/about`,
+    `https://${domain}/archives`,
+    `http://${domain}/archives`
 ]
 
 const postFile = globSync(`${postDir}/**/*.md`).map(i => basename(relative(postDir, i), mdSuffix) )
@@ -33,7 +34,7 @@ const setUrls = () => {
     const urls = [...defaultUrls]
     postFile.forEach(i => {
         const date = getDate(i)
-        const url = `//zidan.store/${date}/${i}`
+        const url = `//${domain}/${date}/${i}`
         const http = `http:${url}`
         const https = `https:${url}`
         urls.push(http, https)
