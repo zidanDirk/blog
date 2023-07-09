@@ -1,5 +1,5 @@
 ---
-title: 你想要的 —— Vuex源码分析
+title: Vuex 源码分析
 date: 2017-07-17 14:34:00
 tags: 源码
 ---
@@ -48,7 +48,7 @@ new Vue({
  - 目录结构
 
     
-![clipboard.png](/img/bVQXxj)
+![clipboard.png](//p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/7/17/75633f06bebe8c09fc4ac8dfaf3efb98~tplv-t2oaga2asx-zoom-in-crop-mark:4536:0:0:0.image)
 从目录结构可以看出，vuex是一个代码比较简洁的框架
 
  - index.js——入口文件
@@ -92,7 +92,7 @@ let Vue // 定义了变量Vue，为的是引用外部的vue构造函数，这样
 
 接下来是定义Store这个类，从图中可以看出这个vuex中的外store对外提供的能力，包括常用的commit,dispatch，watch等
 
-![clipboard.png](/img/bVQXBK)
+![clipboard.png](//p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/7/17/a391fd3c332ed7cb90e8ea4f4d39b2f7~tplv-t2oaga2asx-zoom-in-crop-mark:4536:0:0:0.image)
 
 先看看构造函数吧：
 
