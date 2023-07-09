@@ -17,12 +17,12 @@ tags:
     <img class="about-img" src="/imgs/guangzhou.jpeg">
 </div>
 
-关于工作，曾就职于 **去哪儿网**，**滴滴出行**，**阿里巴巴** 等互联网企业，专注于 web 开发领域，热衷探索前沿技术，以保持对行业最新动态的了解。
+关于工作，曾就职于 **去哪儿网**，**滴滴出行**，**阿里巴巴** 等互联网企业，专注于 web 开发领域，热衷探索前沿技术，保持对行业最新动态的了解。
 <div>
     <img class="about-img" src="/imgs/alibaba.jpeg">
 </div>
 
-**电影** 是我业余时间放松和享受时光的方式之一，喜欢 **DC** 。除此之外还喜欢 **体育运动**，特别是篮球、羽毛球和乒乓球，竞技体育不仅能够锻炼身体，还能在一定程度上培养竞争意识。
+**电影** 是我业余时间放松和享受时光的方式之一，喜欢 **DC** 。除此之外还喜欢 **体育运动**，特别是篮球、羽毛球和乒乓球。
 <div class="about-img-container">
     <img class="about-img"  src="/imgs/batman.jpeg">
     <img class="about-img"  src="/imgs/dirk.jpeg">
