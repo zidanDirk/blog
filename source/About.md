@@ -5,25 +5,30 @@ tags:
 ---
 
 
-大家好，我是 `zidan`， 一名来自 [广东汕头](https://zh.wikipedia.org/zh-hans/%E6%B1%95%E5%A4%B4%E5%B8%82) 的 web 软件工程师。1991 年出生，毕业于[深圳大学](https://zh.wikipedia.org/zh-hans/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6)计算机系。毕业后的五年我曾是一名北漂，在北京这座有温度的城市工作和生活，目前定居在广州。
+大家好，我是 `zidan`， 一名来自**广东汕头**的 web 软件工程师。1991 年出生，毕业于**深圳大学**计算机系。
 <div class="about-img-container"> 
     <img class="about-img"  src="/imgs/shantou.jpeg">
     <img class="about-img" src="/imgs/szu.jpeg">
 </div>
 
+毕业后的五年我曾是一名北漂，在**北京**这座有温度的城市工作和生活，目前定居在**广州**。
+<div class="about-img-container">
+    <img class="about-img"  src="/imgs/beijin.jpeg">
+    <img class="about-img" src="/imgs/guangzhou.jpeg">
+</div>
 
 关于工作，曾就职于 **去哪儿网**，**滴滴出行**，**阿里巴巴** 等互联网企业，专注于 web 开发领域，热衷探索前沿技术，以保持对行业最新动态的了解。
 <div>
     <img class="about-img" src="/imgs/alibaba.jpeg">
 </div>
 
-***电影*** 是我业余时间放松和享受时光的方式之一，喜欢 **DC** 。除此之外还喜欢 ***体育运动***，特别是篮球、羽毛球和乒乓球，竞技体育不仅能够锻炼身体，还能在一定程度上培养竞争意识。
+**电影** 是我业余时间放松和享受时光的方式之一，喜欢 **DC** 。除此之外还喜欢 **体育运动**，特别是篮球、羽毛球和乒乓球，竞技体育不仅能够锻炼身体，还能在一定程度上培养竞争意识。
 <div class="about-img-container">
     <img class="about-img"  src="/imgs/batman.jpeg">
     <img class="about-img"  src="/imgs/dirk.jpeg">
 </div>
 
-***写博客*** 是我为数不多能够坚持的事情，我很享受写作本身这件事以及与读者交流的过程
+**写博客** 是我为数不多能够坚持的事情，我很享受写作本身这件事以及与读者交流的过程
 <div>
     <img class="about-img" src="/imgs/writing.jpeg">
 </div>
