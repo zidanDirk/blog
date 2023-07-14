@@ -1,10 +1,10 @@
 ---
-title: Million.js 真的比 React 快 70% 吗
+title: Million.js 真的让 React 快 70% 吗
 date: 2023-07-13 22:09:00
 tags: 翻译
 ---
 
-![cover.webp](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ad072d8f3e4d4ea1a6e953d72ac4bde7~tplv-k3u1fbpfcp-watermark.image?)
+![cover.webp](/imgs/post/is-million-js-really-making-react-70-faster/cover.webp)
 
 Aiden Bai 为 React 开发者发布了新版本的 Million 库。
 
@@ -17,14 +17,14 @@ Aiden Bai 为 React 开发者发布了新版本的 Million 库。
 由于首页上的声明：
 
 
-![p1.webp](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8d5a168bed6d42358b57e919f28e3d61~tplv-k3u1fbpfcp-watermark.image?)
+![p1.webp](/imgs/post/is-million-js-really-making-react-70-faster/p1.webp)
 
 至少这是我所看到的在网速较慢的时候加载页面的情况 😅
 
 一段时间后，可以看到计数器上升：
 
 
-![p2.webp](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bccf4ef6220e49febdd052b92f9f06fc~tplv-k3u1fbpfcp-watermark.image?)
+![p2.webp](/imgs/post/is-million-js-really-making-react-70-faster/p2.webp)
 
 React 本身相当快， React + Vite 提供了很棒的开发体验
 
@@ -53,7 +53,7 @@ React 创建了一个称为 Virtual DOM 的结构 。React 不操作真正的 DO
 Million 不会将组件视为黑盒，只查看它将渲染的内容以及结果是否与之前的渲染不同
 
 
-![p3.webp](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a401bacb88f64ac8a7461eb7b985cdb5~tplv-k3u1fbpfcp-watermark.image?)
+![p3.webp](/imgs/post/is-million-js-really-making-react-70-faster/p3.webp)
 
 Million 通过检查组件的状态来识别哪些组件会受到变化的 `树传播`的影响。 这意味着它能够更快地找出许多静态组件中必须更新的组件。
 
@@ -62,7 +62,7 @@ Million 通过检查组件的状态来识别哪些组件会受到变化的 `树�
 这种能力是 Million.js 库的核心。 官方网站上有一个交互式演示来说明结果：
 
 
-![p4.webp](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d0fe8cedffe845bda291d5e868612b24~tplv-k3u1fbpfcp-watermark.image?)
+![p4.webp](/imgs/post/is-million-js-really-making-react-70-faster/p4.webp)
 
 单击 Million.js 时没有任何反应，单击 React 按钮会向我们显示红色的故障动画。
 
@@ -71,7 +71,7 @@ Million 通过检查组件的状态来识别哪些组件会受到变化的 `树�
 在比较 React 和 Million.js 之后，我们将看到这样的结果：
 
 
-![p5.webp](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5ed2b6df14244030b41fb27e302674ab~tplv-k3u1fbpfcp-watermark.image?)
+![p5.webp](/imgs/post/is-million-js-really-making-react-70-faster/p5.webp)
 
 我们可以看到指标都有不错的提升。
 
