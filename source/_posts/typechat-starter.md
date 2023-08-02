@@ -14,12 +14,12 @@ TypeChat 通过用 schema 工程取代 prompt 工程来应对这些挑战。它�
 你可以在以下位置找到该项目的网站：<https://microsoft.github.io/TypeChat/>
 
 
-![p1.webp](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/21cf69d9b066407e85295da8d6596a71~tplv-k3u1fbpfcp-watermark.image?)
+![p1.webp](/imgs/post/typechat-starter/p1.webp)
 
 该项目的源代码（包括示例）托管在 GitHub 上：<https://github.com/microsoft/TypeChat>
 
 
-![p2.webp](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/857387debf49460a97a662d7be383660~tplv-k3u1fbpfcp-watermark.image?)
+![p2.webp](/imgs/post/typechat-starter/p2.webp)
 
 # TypeChat 的目的
 
@@ -50,7 +50,7 @@ TypeChat 的主要目的是抹平自然语言与应用程序可以使用的结�
     ```
 
     
-    ![p3.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/31c96e3e31674444a15ff092e81c5019~tplv-k3u1fbpfcp-watermark.image?)
+    ![p3.png](/imgs/post/typechat-starter/p3.png)
 
 1.  构建 TypeChat
 
@@ -59,7 +59,7 @@ TypeChat 的主要目的是抹平自然语言与应用程序可以使用的结�
     ```
 
     
-    ![p4.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c252b6801b70407da289a3ff3d010a18~tplv-k3u1fbpfcp-watermark.image?)
+    ![p4.png](/imgs/post/typechat-starter/p4.png)
 
 1.  配置OpenAI环境变量：需要设置 OpenAI 环境变量。 可以通过在项目的根目录中创建 `.env` 文件并添加以下内容来完成此操作
 
@@ -79,7 +79,7 @@ TypeChat 的主要目的是抹平自然语言与应用程序可以使用的结�
     比如在 `examples/calendar` 目录下
 
     
-    ![p5.jpg](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/da947f2afb90471fb46d80981858473a~tplv-k3u1fbpfcp-watermark.image?)
+    ![p5.jpg](/imgs/post/typechat-starter/p5.jpg)
 
     也可以直接使用项目自带的 `input` 文件，来运行
 
@@ -90,7 +90,7 @@ TypeChat 的主要目的是抹平自然语言与应用程序可以使用的结�
     你可以看到控制的输出是这样的
 
     
-    ![p6.jpg](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a3d0e81af0a941b799483ba8b5776b26~tplv-k3u1fbpfcp-watermark.image?)
+    ![p6.jpg](/imgs/post/typechat-starter/p6.jpg)
 
 # TypeChat 的入门示例
 
