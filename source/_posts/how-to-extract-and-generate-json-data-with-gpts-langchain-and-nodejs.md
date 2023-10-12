@@ -1,4 +1,4 @@
--
+---
 title: 使用 LangChain 和 Node.js 提取数据
 date: 2023-09-12 12:16:30
 tags: 翻译
@@ -153,7 +153,7 @@ LangChain 包含从 LLM 中获取结构化（如 JSON 格式）输出的工具�
     }
 ```
 
-![P1.png](/imgs/post/P1.png)
+![P1.png](/imgs/post/how-to-extract-and-generate-json-data-with-gpts-langchain-and-nodejs/P1.png)
 
 正如你所看到的，我们得到了我们所需要的数据。 我们可以生成具有与人物角色其他部分相匹配的复杂描述的完整身份。 如果我们需要丰富我们的模拟数据，我们可以使用另一个 AI 模型根据外观生成照片
 
@@ -239,7 +239,7 @@ LangChain 包含从 LLM 中获取结构化（如 JSON 格式）输出的工具�
     }
 ```
 
-![P2.png](/imgs/post/P2.png)
+![P2.png](/imgs/post/how-to-extract-and-generate-json-data-with-gpts-langchain-and-nodejs/P2.png)
 
 通过执行这些步骤，我们已经从 PDF 文件中提取了结构化 JSON 数据！ 这种方法用途广泛，可以根据特定用例进行调整
 
