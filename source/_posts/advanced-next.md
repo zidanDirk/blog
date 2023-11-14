@@ -20,13 +20,13 @@ Next.js 会自动对你的应用程序进行代码分割，这意味着它仅加
 
 例如，不要 像这样导入第三方库
 
-```JavaScript
+```js
 import moment from 'moment';
 ```
 
 你可以像这样使用动态导入
 
-```JavaScript
+```js
 const moment = dynamic(() => import('moment'));
 ```
 
@@ -40,7 +40,7 @@ Next.js 会自动优化图片和其他静态资源，但把这些静态资源发
 
 要为静态资源配置 CDN，可以在 next.config.js 文件中使用 assetPrefix 选项：
 
-```JavaScript
+```js
 module.exports = { 
     ... 
     assetPrefix: 'https://yourcdn.com/',
@@ -58,9 +58,7 @@ Next.js 提供了内置的缓存 API，可用于在服务器端缓存数据。 �
 
 例如，你可以像这样缓存数据库查询的结果：
 
-```JavaScript
-
-
+```js
 import { cache } from 'next/cache'; 
 async function getPosts() { 
     const cachedPosts = await cache.get('posts'); 
@@ -86,7 +84,7 @@ Next.js 提供了一项名为增量静态再生成 (ISR) 的强大功能，允�
 
 要使用 ISR，需要在 getStaticProps 函数中定义 revalidate 选项。 此选项指定 Next.js 使用新数据重新生成页面的频率。
 
-```JavaScript
+```js
 export async function getStaticProps() {
     const data = await fetch('https://example.com/api/data'); 
     const posts = await data.json(); 
@@ -110,7 +108,7 @@ Next.js 提供了适合大多数需求场景的内置服务器。 但是，如�
 
 例如，以下是创建处理 WebSocket 的自定义服务的方法：
 
-```JavaScript
+```js
 const http = require('http'); 
 const WebSocket = require('ws'); 
 const next = require('next'); 
