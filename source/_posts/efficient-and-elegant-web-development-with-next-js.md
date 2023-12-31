@@ -270,7 +270,7 @@ export default async function Home() {
 8. **JavaScript 执行：**然后浏览器的 JavaScript 会将这个新的 HTML 块添加到之前在步骤3中生成的 `<template />` 标签的位置。
 9. **终止序列**：最后服务器发送终止序列 `0␍␊␍␊`  ，表示响应结束。
 
-# 深入探索多个 <Suspense />
+# 深入探索多个 Suspense
 
 处理单个 `<Suspense />` 标签很简单，但如果页面有多个这样的标签怎么办呢？ Next.js 如何应对这种情况呢？ 有趣的是，核心方法并没有太大偏差。 以下是管理多个 `<Suspense />` 标签时会发生的一些事情：
 
