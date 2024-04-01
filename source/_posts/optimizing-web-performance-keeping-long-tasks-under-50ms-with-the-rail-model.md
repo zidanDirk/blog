@@ -1,6 +1,7 @@
 ---
 title: 通过 RAIL 模型让网页性能原地起飞
 date: 2024-04-01 18:18:00
+tag: 性能优化
 ---
 
 # 什么是任务
@@ -203,7 +204,7 @@ function saveSettings() {
 }
 ```
 
-![p7](/imgs/post/optimizing-web-performance-keeping-long-tasks-under-50ms-with-the-rail-model/p7-new.png)
+![p7](/imgs/post/optimizing-web-performance-keeping-long-tasks-under-50ms-with-the-rail-model/p7-new.jpg)
 
 为了提升性能，我们可以将这些任务分割成若干异步执行的部分，确保每一部分的执行时间都不会超过 50 毫秒的标准。通过这种方式，我们可以让每个任务单独执行，避免了它们长时间占用主线程，从而减少对用户操作响应的延迟。
 
@@ -231,7 +232,7 @@ function saveSettings () {
 
 理想的优化效果应该是：
 
-![p8](/imgs/post/optimizing-web-performance-keeping-long-tasks-under-50ms-with-the-rail-model/p8-new.png)
+![p8](/imgs/post/optimizing-web-performance-keeping-long-tasks-under-50ms-with-the-rail-model/p8-new.jpg)
 
 `saveSettings()` 函数现在将其子函数作为单独的任务来执行
 
