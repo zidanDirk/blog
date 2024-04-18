@@ -47,7 +47,7 @@ yarn dev
 
 你可以打开 [](http://localhost:3000/)<http://localhost:3000/> 看到这个 demo 已经成功运行
 
-![1.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p1.awebp)
+![1.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p1.webp)
 也推荐你运行
 
 ```bash
@@ -382,12 +382,12 @@ npx husky add .husky/commit-msg "npx --no -- commitlint --edit $1"
 
 你可以在下面的屏幕截图中看到此设置的最终结果，希望你的结果与此类似：
 
-![2.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p2.awebp)
+![2.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p2.webp)
 
 如果提交信息格式不正确的话，则会报错
 
 
-![3.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p3.awebp)
+![3.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p3.webp)
 
 # **VS Code 配置**
 
@@ -460,7 +460,7 @@ npx husky add .husky/commit-msg "npx --no -- commitlint --edit $1"
 
 使用该脚本你可以选择三种调试方式。单击 VS Code 左侧的小 “错误和播放图标” 或按 `Ctrl + Shift + D` 访问调试菜单。你可以选择要运行的脚本并使用启动/停止按钮启动 / 停止它
 
-![4.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p4.awebp)
+![4.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p4.webp)
 
 除此之外，或者如果你没有使用 VS Code，我们也可以在项目中设置一些有用的调试脚本
 
@@ -673,11 +673,11 @@ yarn storybook
 
 如果一切顺利，将在控制台中看到一条消息，如下所示：
  
-![5.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p5.awebp)
+![5.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p5.webp)
   
 然后你可以通过 [http://localhost:6006](http://localhost:6006/) 访问到
 
-![6.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p6.awebp)
+![6.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p6.webp)
     
 如果你以前从未使用过这些示例，我希望你尝试并熟悉这些示例。
 
@@ -815,7 +815,7 @@ yarn storybook
 如果一切顺利，你将会看到下面的界面（如果有问题，我建议你再重新检查一下之前的配置正不正确）
  
 
-![7.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p7.awebp)
+![7.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p7.webp)
     
 现在我们开始创建更多文件，最好养成在提交之前运行 `yarn lint` 的习惯，以确保一切都是干净的并准备就绪。我在这里再创建一个提交 `build: create BaseTemplate component`
 
@@ -825,12 +825,12 @@ yarn storybook
 
 创建 `components/cards` 目录。然后将 `templates` 目录下的 `base` 文件夹拷贝到 `cards` 下面，然后再将 `base` 重命名为 `cat` 。我们将创建一个 `CatCard` 。重命名每个文件以匹配。 完成后应该是这样的：
     
-![8.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p8.awebp)
+![8.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p8.webp)
     
 然后在 `components/cards/cat` 目录下，全局将 `BaseTemplate` 替换为 `CatCard` ，如下
     
     
-![9.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p9.awebp)
+![9.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p9.webp)
     
 现在我们准备开始工作，我们已经有了一个干净的预生成的模版，其中已经为我们的 Card 组件包含了 story 文件和模拟数据文件。相当的方便！让我们开始开发 Card 组件吧：
 
@@ -1013,7 +1013,7 @@ module.exports = nextConfig;
 
 现在运行 Storybook，如果你足够幸运，你将会看到
   
-![10.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p10.awebp)
+![10.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p10.webp)
     
 这个组件可以很方便的放置在实际项目中的任何位置。在短期内测试时使用 `mock` prop，并在准备好后更换为真实 prop
 
@@ -1073,7 +1073,7 @@ const Home: NextPage = () => {
     yarn dev
 ```
    
-![11.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p11.awebp)
+![11.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p11.webp)
     
 # 添加自定义文档
 
@@ -1122,7 +1122,7 @@ Layouts 是 Next.js 中的重要概念。他们协助我们管理页面间的状
 
 在 `components` 中创建新的目录 `layouts` 。我们将复制两次 `templates/case` 目录。一个叫做 `primary` ，另一个叫做 `sidebar` 。如下图所示
     
-![12.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p12.awebp)
+![12.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p12.webp)
    
 在每个文件中对 `BaseTemplate` 进行区分大小写的查找/替换，并分别替换为 `PrimaryLayout` 和 `SidebarLayout`。
     如果你在这一步有遇到困难，可以直接参考这个[仓库的结构](https://github.com/zidanDirk/nextjs-fullstack-app-template-zn)
@@ -1379,15 +1379,15 @@ yarn dev
 在侧边栏（ Home 和 about ）的按钮单击可以进行页面切换。 请注意，所使用的布局将持续存在而无需重新加载（正如我们的意图），并且用户将获得超快速的体验。
     
  
-![13.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p13.awebp)
+![13.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p13.webp)
     
     
-![14.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p14.awebp)
+![14.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p14.webp)
     
 在 Storybook 这边，我们可以独立于应用预览和测试我们的 layout 组件。这个 PrimaryLayout 组件在没有自组件的情况下没有什么作用，而侧边栏则可以完美的显示。
     
 
-![15.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p15.awebp)
+![15.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p15.webp)
     
 # 部署
 最后一步将讲解如何部署一个 Next.js 应用
@@ -1404,13 +1404,13 @@ yarn dev
 
 选择它后，需要对其进行配置。 在 `Build and Output Settings` 部分，确保将默认的 NPM 命令替换为 yarn 命令（除非你使用的是 NPM）。
     
-![16.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p16.awebp)
+![16.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p16.webp)
     
 我们还没有使用任何环境变量，所以不需要添加
 
 一旦完成，只需单击 `Deploy` 即可！ 就这么简单。
     
-![17.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p17.awebp)
+![17.png](/imgs/post/how-to-build-scalable-architecture-for-your-nextjs/p17.webp)
     
     
 现在不仅部署了站点，而且每次提交到主分支时，它都会继续自动重新部署。 如果你不想要这种行为，那么在 Vercel 仪表板中进行配置也很容易。
